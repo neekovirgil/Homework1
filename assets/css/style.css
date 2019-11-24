@@ -1,0 +1,25 @@
+h1 {
+    color: rgb(32, 65, 95);
+}
+
+.pic {
+   float: left;
+   position: absolute;
+}
+
+.aboutme {
+    float: right;
+    position: relative;
+    margin-left: 250px;
+    line-height: 2;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    widows: 100%;
+    background-color: rgb(223, 223, 223);
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
