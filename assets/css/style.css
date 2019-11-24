@@ -4,13 +4,12 @@ h1 {
 
 .pic {
    float: left;
-   position: absolute;
+   margin: .9% 1% 1% 1%;
+   height: 16%;
+   width: 20%;
 }
 
 .aboutme {
-    float: right;
-    position: relative;
-    margin-left: 250px;
     line-height: 2;
 }
 
@@ -22,4 +21,38 @@ body {
     background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(32, 65, 95);
+}
+
+
+.active {
+    background-color: rgb(32, 65, 95);
+}
+
+li:last-child {
+    border-right: none;
 }
