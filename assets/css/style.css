@@ -1,56 +1,53 @@
 h1 {
     color: rgb(32, 65, 95);
+    border-bottom: solid 3px;
+    border-image-source: linear-gradient(to right, rgb(32, 65, 95),  rgb(189,195,199), rgb(44,62,80));;
+    border-image-slice: 1;
+    margin-top: -1.5%;
+    padding-top: 20px;    
 }
 
 .pic {
    float: left;
-   margin: .9% 1% 1% 1%;
+   margin: .7% 1% 1% 1%;
    height: 16%;
    width: 20%;
 }
 
 .aboutme {
     line-height: 2;
+    margin: 1%;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%;
-    widows: 100%;
-    background-color: rgb(223, 223, 223);
-    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right, rgb(189,195,199), rgb(44,62,80));
+    
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 2%;
     padding: 0;
     overflow: hidden;
-    background-color: black;
 }
 
 li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid rgb(32, 65, 95);
 }
 
 li a {
     display: block;
     padding: 8px;
-    color: white;
+    color: rgb(32, 65, 95);
     text-align: center;
     text-decoration: none;
 }
 
 li a:hover:not(.active){
-    background-color: rgb(32, 65, 95);
-}
-
-
-.active {
-    background-color: rgb(32, 65, 95);
+    background-color:rgb(151, 151, 151);
 }
 
 li:last-child {
