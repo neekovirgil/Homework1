@@ -4,14 +4,16 @@ h1 {
     border-image-source: linear-gradient(to right, rgb(32, 65, 95),  rgb(189,195,199), rgb(44,62,80));;
     border-image-slice: 1;
     margin-top: -1.5%;
-    padding-top: 20px;    
+    padding-top: 20px;  
 }
 
 .pic {
-   float: left;
-   margin: .7% 1% 1% 1%;
-   height: 16%;
-   width: 20%;
+    float: left;
+    margin: .7% 1% 1% 1%;
+    max-height: 20%;
+    max-width: 20%;
+   padding-right: 7.083px;
+   
 }
 
 .aboutme {
