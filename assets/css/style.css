@@ -19,6 +19,7 @@ h1 {
 .aboutme {
     line-height: 2;
     margin: 1%;
+    opacity: .75;
 }
 
 body {
@@ -58,15 +59,13 @@ li:first-child {
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
-    background-color:rgb(151, 151, 151);
-    margin-right: 85%;
+    background-color: rgb(32, 65, 95);
+    margin-right: 75%;
     text-align: center;
-    border: 1px rgb(151, 151, 151);
-    border-radius: 25px;
-    padding: 1%;
-    position: relative;
+    padding: 1.05%;
+    position: fixed;
 }
 
 .footer {
@@ -75,9 +74,20 @@ header {
     bottom: 0;
     width: 100%;
     background: linear-gradient(to right, rgb(189,195,199), rgb(44,62,80));
-    color: rgb(44,62,80);
+    color: white;
     text-align: center;
     border: solid 3px;
     border-image-source: linear-gradient(to right, rgb(32, 65, 95),  rgb(189,195,199), rgb(44,62,80));;
     border-image-slice: 1;
+}
+
+.content {
+    max-width: 960px;
+    max-height: 2040px;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: white;
+    padding: 3%;
 }
