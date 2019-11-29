@@ -36,14 +36,14 @@ ul {
 }
 
 li {
-    float: left;
-    border-right: 1px solid rgb(32, 65, 95);
+    float: right;
+    border-right: 1px solid white;
 }
 
 li a {
     display: block;
     padding: 8px;
-    color: rgb(32, 65, 95);
+    color: white;
     text-align: center;
     text-decoration: none;
 }
@@ -52,6 +52,32 @@ li a:hover:not(.active){
     background-color:rgb(151, 151, 151);
 }
 
-li:last-child {
+li:first-child {
     border-right: none;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-color:rgb(151, 151, 151);
+    margin-right: 85%;
+    text-align: center;
+    border: 1px rgb(151, 151, 151);
+    border-radius: 25px;
+    padding: 1%;
+    position: relative;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(189,195,199), rgb(44,62,80));
+    color: rgb(44,62,80);
+    text-align: center;
+    border: solid 3px;
+    border-image-source: linear-gradient(to right, rgb(32, 65, 95),  rgb(189,195,199), rgb(44,62,80));;
+    border-image-slice: 1;
 }
