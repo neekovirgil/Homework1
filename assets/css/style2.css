@@ -97,8 +97,11 @@ input[type=submit] {
 }
 
 #message {
-    padding: 8%;
-    margin: 0 auto;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom: 8%;
+    padding-right: 99.5%;
     box-sizing: border-box;
 }
+
 
