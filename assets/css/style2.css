@@ -100,8 +100,9 @@ input[type=submit] {
     padding-left:0;
     padding-top:0;
     padding-bottom: 8%;
-    padding-right: 99.5%;
+    width: 99.5%;
     box-sizing: border-box;
+    
 }
 
 
