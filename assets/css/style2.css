@@ -79,8 +79,14 @@ header {
 
 input[type=text] {
     width: 99.5%;
-    margin: 0 auto;
+    margin: .5% auto;
 }
+
+input[type=email] {
+    width: 99.5%;
+    margin: .5% auto;  
+}
+
 
 input[type=submit] {
     background-color: rgb(32, 65, 95);
