@@ -63,6 +63,7 @@ header {
     border: solid 3px;
     border-image-source: linear-gradient(to right, rgb(32, 65, 95),  rgb(189,195,199), rgb(44,62,80));;
     border-image-slice: 1;
+    font-size: .5em;
 }
 
 .content {
@@ -91,7 +92,7 @@ input[type=submit] {
 
 #message {
     padding: 8%;
-    margin: 8px 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
