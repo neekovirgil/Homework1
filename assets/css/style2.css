@@ -97,10 +97,10 @@ input[type=submit] {
 }
 
 #message {
+    width: 99.5%;
     padding-left:0;
     padding-top:0;
     padding-bottom: 8%;
-    width: 99.5%;
     box-sizing: border-box;
     
 }
