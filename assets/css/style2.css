@@ -75,3 +75,23 @@ header {
     background-color: white;
     padding: 3%;
 }
+
+input[type=text] {
+    width: 99.5%;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    background-color: rgb(32, 65, 95);
+    color: white;
+    border: none;
+    margin-top: 1%;
+    padding: .75%;
+}
+
+#message {
+    padding: 8%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
