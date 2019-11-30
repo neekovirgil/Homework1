@@ -7,21 +7,6 @@ h1 {
     padding-top: 20px;  
 }
 
-.pic {
-    float: left;
-    margin: .7% 1% 1% 1%;
-    max-height: 20%;
-    max-width: 20%;
-   padding-right: 7.083px;
-   
-}
-
-.aboutme {
-    line-height: 2;
-    margin: 1%;
-    opacity: .75;
-}
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%;
@@ -90,5 +75,3 @@ header {
     background-color: white;
     padding: 3%;
 }
-
-
