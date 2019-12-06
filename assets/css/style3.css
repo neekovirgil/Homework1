@@ -49,7 +49,7 @@ header {
     margin-right: 75%;
     text-align: center;
     padding: 1.05%;
-    position: fixed;
+    position: absolute;
 }
 
 .footer {
@@ -75,15 +75,16 @@ header {
 .main {
     background-color: white;
     padding: 3%;
-    max-height: 960px;
+    height: 960px;
 }
 
 .family {
     position: relative;
-    left: 0;
-    top: 0;
+    left: -20px;
+    top: 10px;
     margin: 0 auto;
     width: 25%;
     height: 25%;
     transform: rotate(90deg);
+    padding-top: 3%;
 }
