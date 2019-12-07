@@ -82,9 +82,9 @@ header {
     position: relative;
     left: -15px;
     top: 10px;
-    margin: 0 auto;
-    width: 25%;
-    height: 25%;
+    margin-bottom: 5%;
+    width: 23%;
+    height: 23%;
     transform: rotate(90deg);
-    padding-top: 3%;
+    padding-top: 3%;    
 }
